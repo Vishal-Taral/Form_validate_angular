@@ -23,7 +23,7 @@
     height: 91vh;
 }
 
-button
+.log
 {
     border-radius: 15px;
     border: 2px solid blue;
@@ -32,8 +32,99 @@ button
 
 
 }
-button:hover{
+.log:hover{
     color: white;
     background-color: black;
    
 }
+h5{
+    font-size: 25px;
+}
+.pipe{
+    margin-top: 1000px;
+}
+.navbar1{
+    height: 60px;
+    width: 100%;
+    margin: auto;
+   
+    display: flex;
+    padding-top: 15px;
+  
+    
+
+}
+.hire{
+    height:30px;
+}
+.filter{
+    height: 40px;
+    width: 100px;
+    background-color: aquamarine;
+}
+#three{
+    margin-left: 200px;
+}
+.vl{
+    margin-left: 20px;
+    border-left: 1px solid black;
+    height: 40px;
+}
+.add{
+    height: 30px;
+    width: 150px;
+}
+
+.maincard{
+    display: flex;
+   
+}
+
+*{
+    box-sizing: border-box;
+  }
+  
+ 
+  
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 25%;
+    padding:  10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card {
+    width: 350px;
+    height: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+  
+  }
+
+
+
+
+
+
+
